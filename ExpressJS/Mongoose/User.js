@@ -41,9 +41,9 @@ const userSchema = new mongoose.Schema({
     },
     bestFriend: {
         type: mongoose.SchemaTypes.ObjectId,
-        ref: 'User' // Refers to another User document for relationships
+        ref: 'User' 
     },
-    hobbies: [String], // Array of strings for hobbies
+    hobbies: [String], 
     address: addressSchema
 }, ); // Explicitly set collection name-- or specifications - {collection: 'User'}
 
