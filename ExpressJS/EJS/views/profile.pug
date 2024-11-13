@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title User Profile
+  body
+    h1 Welcome, #{name}!
+    p Age: #{age}
+    h2 Hobbies
+    ul
+      each hobby in hobbies
+        li= hobby

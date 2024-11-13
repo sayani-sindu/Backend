@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "wireless Mouse",
+      "image_url": "https://example.com/images/wireless-mouse.jpg",
+      "desc": "A sleek and ergonomic wireless mouse for smooth navigation.",
+      "price": 8.99
+    },
+    {
+      "id": 2,
+      "name": "Portable Power Bank",
+      "image_url": "https://example.com/images/portable-power-bank.jpg",
+      "desc": "A compact power bank to keep your devices charged on the go.",
+      "price": 9.49
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Earbuds",
+      "image_url": "https://example.com/images/bluetooth-earbuds.jpg",
+      "desc": "Comfortable and high-quality Bluetooth earbuds for music and calls.",
+      "price": 7.99
+    },
+    {
+      "id": 4,
+      "name": "Phone Stand",
+      "image_url": "https://example.com/images/phone-stand.jpg",
+      "desc": "Adjustable stand to hold your phone for hands-free viewing.",
+      "price": 4.99
+    },
+    {
+      "id": 5,
+      "name": "USB Flash Drive 16GB",
+      "image_url": "https://example.com/images/usb-flash-drive.jpg",
+      "desc": "A 16GB USB drive for fast data transfer and storage.",
+      "price": 5.99
+    },
+    {
+      "id": 6,
+      "name": "Silicone Phone Case",
+      "image_url": "https://example.com/images/silicone-phone-case.jpg",
+      "desc": "Protect your phone with a soft and durable silicone case.",
+      "price": 6.49
+    },
+    {
+      "id": 7,
+      "name": "Laptop Sleeve",
+      "image_url": "https://example.com/images/laptop-sleeve.jpg",
+      "desc": "A padded sleeve to protect your laptop from scratches and bumps.",
+      "price": 9.00
+    },
+    {
+      "id": 8,
+      "name": "wall Charger Adapter",
+      "image_url": "https://example.com/images/wall-charger.jpg",
+      "desc": "A fast-charging wall adapter for your devices.",
+      "price": 4.50
+    },
+    {
+      "id": 9,
+      "name": "Mini Fan USB",
+      "image_url": "https://example.com/images/mini-usb-fan.jpg",
+      "desc": "A small USB-powered fan to keep you cool wherever you go.",
+      "price": 3.99
+    },
+    {
+      "id": 10,
+      "name": "Keychain Flashlight",
+      "image_url": "https://example.com/images/keychain-flashlight.jpg",
+      "desc": "A handy mini flashlight that fits on your keychain for emergencies.",
+      "price": 2.99
+    }
+  ]
+  
