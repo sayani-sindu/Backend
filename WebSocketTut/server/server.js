@@ -4,21 +4,34 @@ const { Server } = require('socket.io');
 
 const httpServer = createServer();
 
-const socket = new Server(httpServer,{
+const io = new Server(httpServer,{
     cors: {
-        origin: ["http://127.0.0.1:5500", "http://localhost:5500"],
-    }
+        origin: 'http://localhost:5173',
+        methods: ['GET', 'POST'],
+        credentials: true,
+    },
     
 });
+let playerScores = [];
 
-socket.on("connection", (socket) => {
-    console.log(socket);
+io.on("connection", (socket) => {
+    socket.on('scores', (scores) => {
 
-    socket.on('message', (data) => {
-        console.log(data);
-    })
+        playerScores.push({... scores, id: socket.id}); 
 
-    socket.emit('message', "Hello");
+        console.log(playerScores);
+
+        console.log(socket.id);
+
+
+        socket.emit('playerScores', playerScores);
+
+        setInterval(() => {
+            socket.emit('playerScores', playerScores);
+        }, 5000);
+    });
+
+    
 });
 
 httpServer.listen(3000, ()=>{
